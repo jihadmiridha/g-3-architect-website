@@ -84,3 +84,33 @@ nav li a{
         flex-direction: column;
     }
 }
+/* main-styles */
+main{
+    max-width: 1440px 0;
+    margin: 70px auto;
+}
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding-right:70px ;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .text-features{
+    font-weight: 700px;
+    color: #FF900E;
+}
